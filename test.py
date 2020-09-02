@@ -21,9 +21,11 @@ img_dim = 256
 n_classes = 917 #change this to the number of different cattle
 iters = 500
 log_interval = 1
+# change data path
 train_root = "/media/HDD1/Cattle/extreme_clean/train/"
 vali_root = "/media/HDD1/Cattle/extreme_clean/valid/"
 test_root = "/media/HDD1/Cattle/extreme_clean/test/"
+
 checkpoint_root = "/media/HDD1/Cattle/extreme_clean/checkpoints/"
 
 data_transforms = transforms.Compose([
